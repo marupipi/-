@@ -1,0 +1,163 @@
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.firstView h1{
+    font-size :64px;
+    font-family:Arial Black;
+    text-align: center;
+    padding-top:320px;
+}
+
+.firstView p{
+    font-size :14px;
+    text-align: center;
+}
+ 
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+.school-club {
+margin-top:180;
+display:flex;
+justify-content:space-between
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom:1px solid;
+    margin-top: 32px;
+}
+
+.firstView {
+    background-image: url(/IMG_9576.jpeg);
+    background-size: cover;
+    height: 800px;
+}
+
+.about{
+padding: 180px;
+text-align: center;
+
+} 
+.about img {
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 8vh;
+}
+
+.profile h2{
+font-size :40px;
+font-family:Arial Black;
+letter-spacing:0.1em;
+text-align: center;
+}
+
+.profile h3{
+font-size: 24px;
+margin-top: 5px;
+text-align: center;
+ }
+
+ .profile p{
+font-size :16px;
+margin-top: 24px;
+text-align: center;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+ 
+}
+
+.profile.profile-text{
+width:500px;
+float: left;
+text-align: center;
+}
+ 
+.favorite {
+    text-align: center;
+    padding: 180px 240px 180px;
+
+}
+.favorite h2{
+    font-size:64px;
+}
+
+.favorite-content{
+    width:320px;
+
+    padding:40px;
+}
+.favorite-content img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-left: 150px;
+}
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.favorite-content p{
+    font-size:16px;
+    text-align: center;
+    margin-top: 32px;       
+}
+ 
+.contact{
+    padding:180px 370px;
+    text-align: center;
+}
+
+.contact h2 {
+   font-size: 64px;
+   letter-spacing: 0.1em;
+   border-bottom:3px solid #ff9900;
+   display: inline-block;
+}
+
+.contact p {
+    font-size: 24px;
+    font-weight:bold;
+    letter-spacing: 0.1em;
+    line-height:200%;
+    margin-top: 48px;
+    text-align: center;
+
+}
+.contact p{
+font-size: 24px;
+font-weight: bold;
+letter-spacing:0.1em;
+line-height:200%;
+margin-top: 48px;
+text-align: center;
+}
+
+.contact a {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #cc9999;
+    color:#ffffff;
+    width:200px;
+    line-height:80px;
+    display:inline-block;
+    border-radius:16px;
+}
+.contact .sns-Instagram{
+    background-color: #cc9999;
+}
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
