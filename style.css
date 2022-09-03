@@ -24,7 +24,11 @@ a{
 .school-club {
 margin-top:180;
 display:flex;
+width: 100%;
 justify-content:space-between
+}
+.school-club div{
+    margin: 20px;
 }
 
 .school-club a{
@@ -94,14 +98,14 @@ text-align: center;
 
 .favorite-content{
     width:320px;
-
+    margin: 0 auto;
     padding:40px;
 }
 .favorite-content img{
     width:200px;
     height:200px;
     border-radius:50%;
-    margin-left: 150px;
+   
 }
 .favorite-content h3{
     font-size: 24px;
